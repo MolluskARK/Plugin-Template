@@ -7,7 +7,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\plugin.cpp" />
+    <ClCompile Include="src\PluginTemplate.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Actor.h" />
@@ -160,8 +160,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{5affe936-40ae-4e18-9ab3-ee4a6ca31b7a}</ProjectGuid>
-    <RootNamespace>PluginTemplate</RootNamespace>
+    <RootNamespace>Project</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>PluginTemplate</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
