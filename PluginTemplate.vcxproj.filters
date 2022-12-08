@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi">
+      <UniqueIdentifier>{667cfa59-9e76-42ab-a3ea-7b0941e57f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API">
+      <UniqueIdentifier>{6f59f8e3-4d66-4993-aae8-4de8c2647a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\ARK">
+      <UniqueIdentifier>{365b9d86-9b2a-4005-9a67-190bcc349ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\Atlas">
+      <UniqueIdentifier>{d4aacd22-2f4e-4e3c-b1ad-149dd2f62e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\UE">
+      <UniqueIdentifier>{574e5eff-7784-4949-b146-856e62508a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\Atlas">
+      <UniqueIdentifier>{09961a72-5b12-4abc-91d9-d2afe136207b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\Ark">
+      <UniqueIdentifier>{aaf13abc-77a6-4bb9-82bb-08065cdb6628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\UE\Containers">
+      <UniqueIdentifier>{452ba516-606e-47ed-93aa-4b117c246ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\UE\Containers\Algo">
+      <UniqueIdentifier>{62857f3e-2894-427c-8fae-023fe237284e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\UE\Containers\Algo\Impl">
+      <UniqueIdentifier>{393b1e7e-b001-4c38-9075-9cc71bdca11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\UE\Delegates">
+      <UniqueIdentifier>{cd5d93a4-bfca-4671-86e2-f72f22c1d8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\UE\GenericPlatform">
+      <UniqueIdentifier>{d014bf11-31b1-4b71-a81f-1fe27f1e1926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\UE\HAL">
+      <UniqueIdentifier>{8c79988b-d90c-43b4-a052-5b0e68884a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\UE\Math">
+      <UniqueIdentifier>{05fb29dd-5704-48fb-a387-661235fd9990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\UE\Misc">
+      <UniqueIdentifier>{04a1f74c-a1e2-436c-9d2f-0d4d74913c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\UE\Templates">
+      <UniqueIdentifier>{a87464a2-7511-4fca-b195-4f4b05623bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\API\UE\Windows">
+      <UniqueIdentifier>{0edd14c0-95e6-4910-b161-a33b3b5848e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\Logger">
+      <UniqueIdentifier>{60f66a37-a293-4344-9307-41a1a634f9a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\Logger\spdlog">
+      <UniqueIdentifier>{adfeebbd-939e-476f-9754-bb0128e0dc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\Logger\spdlog\details">
+      <UniqueIdentifier>{560af1ac-7f0f-4d08-9aa3-03b9caf29bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\Logger\spdlog\fmt">
+      <UniqueIdentifier>{2dc91abb-1eb4-4dda-999c-f599bfa5440c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\Logger\spdlog\fmt\bundled">
+      <UniqueIdentifier>{71533411-5e0d-42de-b436-5ceaeb956d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArkServerApi\Logger\spdlog\sinks">
+      <UniqueIdentifier>{ae16daa8-ba3e-43da-b2e2-707db4f99633}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\IApiUtils.h">
+      <Filter>Header Files\ArkServerApi</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\ICommands.h">
+      <Filter>Header Files\ArkServerApi</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\IHooks.h">
+      <Filter>Header Files\ArkServerApi</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\json.hpp">
+      <Filter>Header Files\ArkServerApi</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Requests.h">
+      <Filter>Header Files\ArkServerApi</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Timer.h">
+      <Filter>Header Files\ArkServerApi</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Tools.h">
+      <Filter>Header Files\ArkServerApi</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Actor.h">
+      <Filter>Header Files\ArkServerApi\API\ARK</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Ark.h">
+      <Filter>Header Files\ArkServerApi\API\ARK</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Enums.h">
+      <Filter>Header Files\ArkServerApi\API\ARK</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\GameMode.h">
+      <Filter>Header Files\ArkServerApi\API\ARK</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\GameState.h">
+      <Filter>Header Files\ArkServerApi\API\ARK</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Inventory.h">
+      <Filter>Header Files\ArkServerApi\API\ARK</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Other.h">
+      <Filter>Header Files\ArkServerApi\API\ARK</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\PrimalStructure.h">
+      <Filter>Header Files\ArkServerApi\API\ARK</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Tribe.h">
+      <Filter>Header Files\ArkServerApi\API\ARK</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Actor.h">
+      <Filter>Header Files\ArkServerApi\API\Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Atlas.h">
+      <Filter>Header Files\ArkServerApi\API\Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Enums.h">
+      <Filter>Header Files\ArkServerApi\API\Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\GameMode.h">
+      <Filter>Header Files\ArkServerApi\API\Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\GameState.h">
+      <Filter>Header Files\ArkServerApi\API\Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\HighResScreenShot.h">
+      <Filter>Header Files\ArkServerApi\API\Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Inventory.h">
+      <Filter>Header Files\ArkServerApi\API\Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Other.h">
+      <Filter>Header Files\ArkServerApi\API\Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\PrimalStructure.h">
+      <Filter>Header Files\ArkServerApi\API\Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Tribe.h">
+      <Filter>Header Files\ArkServerApi\API\Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Atlas\AtlasApiUtils.h">
+      <Filter>Header Files\ArkServerApi\Atlas</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Ark\ArkApiUtils.h">
+      <Filter>Header Files\ArkServerApi\Ark</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Base.h">
+      <Filter>Header Files\ArkServerApi\API</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Enums.h">
+      <Filter>Header Files\ArkServerApi\API</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Fields.h">
+      <Filter>Header Files\ArkServerApi\API</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\BasicTypes.h">
+      <Filter>Header Files\ArkServerApi\API\UE</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Crc.h">
+      <Filter>Header Files\ArkServerApi\API\UE</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\NetSerialization.h">
+      <Filter>Header Files\ArkServerApi\API\UE</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\UE.h">
+      <Filter>Header Files\ArkServerApi\API\UE</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Algo\Impl\BinaryHeap.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers\Algo\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Algo\BinarySearch.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers\Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Algo\IntroSort.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers\Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Algo\Reverse.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers\Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Algo\Sort.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers\Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\BitArray.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\ContainerAllocationPolicies.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\EnumAsByte.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\FString.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Map.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\ScriptArray.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Set.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\SparseArray.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\TArray.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\TIndirectArray.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Delegates\IntegerSequence.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Delegates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\GenericPlatform\GenericPlatformAtomics.h">
+      <Filter>Header Files\ArkServerApi\API\UE\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\GenericPlatform\GenericPlatformMath.h">
+      <Filter>Header Files\ArkServerApi\API\UE\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\GenericPlatform\GenericPlatformMemory.h">
+      <Filter>Header Files\ArkServerApi\API\UE\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\GenericPlatform\GenericPlatformString.h">
+      <Filter>Header Files\ArkServerApi\API\UE\GenericPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\HAL\UnrealMemory.h">
+      <Filter>Header Files\ArkServerApi\API\UE\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\Color.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\ColorList.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\IntPoint.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\IntVector.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\Quat.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\Rotator.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\UnrealMathUtility.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\Vector.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\Vector2D.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Misc\ByteSwap.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Misc\Char.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Misc\CString.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Misc\GlobalObjectsArray.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Misc\StructBuilder.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\AlignmentTemplates.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\AndOrNot.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\AreTypesEqual.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\ChooseClass.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Decay.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\EnableIf.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Function.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\HasGetTypeHash.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IdentityFunctor.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Invoke.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsArithmetic.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsContiguousContainer.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsEnum.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsEnumClass.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsPODType.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsPointer.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsTriviallyCopyAssignable.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsTriviallyCopyConstructible.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsTriviallyDestructible.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Less.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\MemoryOps.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\PointerIsConvertibleFromTo.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\RemoveCV.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\RemoveReference.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\ReversePredicate.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\SharedPointer.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\SharedPointerInternals.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Sorting.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Tuple.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\TypeCompatibleBytes.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\TypeHash.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\UnrealTemplate.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\UnrealTypeTraits.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Windows\MicrosoftPlatformString.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Windows\WindowsPlatformAtomics.h">
+      <Filter>Header Files\ArkServerApi\API\UE\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\Logger.h">
+      <Filter>Header Files\ArkServerApi\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\async_logger.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\common.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\formatter.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\logger.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\spdlog.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\tweakme.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\async_log_helper.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\async_logger_impl.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\file_helper.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\log_msg.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\logger_impl.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\mpmc_bounded_q.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\null_mutex.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\os.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\pattern_formatter_impl.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\registry.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\spdlog_impl.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\details</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\fmt.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\ostr.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\container.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\format.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\ostream.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\posix.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\printf.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\string.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\time.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\fmt\bundled</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\android_sink.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\ansicolor_sink.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\base_sink.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\dist_sink.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\file_sinks.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\msvc_sink.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\null_sink.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\ostream_sink.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\sink.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\stdout_sinks.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\syslog_sink.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\wincolor_sink.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\windebug_sink.h">
+      <Filter>Header Files\ArkServerApi\Logger\spdlog\sinks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

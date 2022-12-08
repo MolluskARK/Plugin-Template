@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\plugin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Actor.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Ark.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Enums.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\GameMode.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\GameState.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Inventory.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Other.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\PrimalStructure.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\ARK\Tribe.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Actor.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Atlas.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Enums.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\GameMode.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\GameState.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\HighResScreenShot.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Inventory.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Other.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\PrimalStructure.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Atlas\Tribe.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Base.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Enums.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\Fields.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\BasicTypes.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Algo\BinarySearch.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Algo\Impl\BinaryHeap.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Algo\IntroSort.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Algo\Reverse.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Algo\Sort.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\BitArray.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\ContainerAllocationPolicies.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\EnumAsByte.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\FString.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Map.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\ScriptArray.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\Set.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\SparseArray.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\TArray.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Containers\TIndirectArray.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Crc.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Delegates\IntegerSequence.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\GenericPlatform\GenericPlatformAtomics.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\GenericPlatform\GenericPlatformMath.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\GenericPlatform\GenericPlatformMemory.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\GenericPlatform\GenericPlatformString.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\HAL\UnrealMemory.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\Color.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\ColorList.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\IntPoint.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\IntVector.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\Quat.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\Rotator.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\UnrealMathUtility.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\Vector.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Math\Vector2D.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Misc\ByteSwap.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Misc\Char.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Misc\CString.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Misc\GlobalObjectsArray.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Misc\StructBuilder.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\NetSerialization.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\AlignmentTemplates.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\AndOrNot.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\AreTypesEqual.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\ChooseClass.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Decay.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\EnableIf.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Function.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\HasGetTypeHash.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IdentityFunctor.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Invoke.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsArithmetic.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsContiguousContainer.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsEnum.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsEnumClass.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsPODType.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsPointer.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsTriviallyCopyAssignable.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsTriviallyCopyConstructible.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\IsTriviallyDestructible.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Less.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\MemoryOps.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\PointerIsConvertibleFromTo.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\RemoveCV.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\RemoveReference.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\ReversePredicate.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\SharedPointer.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\SharedPointerInternals.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Sorting.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\Tuple.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\TypeCompatibleBytes.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\TypeHash.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\UnrealTemplate.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Templates\UnrealTypeTraits.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\UE.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Windows\MicrosoftPlatformString.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\API\UE\Windows\WindowsPlatformAtomics.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Ark\ArkApiUtils.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Atlas\AtlasApiUtils.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\IApiUtils.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\ICommands.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\IHooks.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\json.hpp" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\Logger.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\async_logger.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\common.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\async_logger_impl.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\async_log_helper.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\file_helper.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\logger_impl.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\log_msg.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\mpmc_bounded_q.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\null_mutex.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\os.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\pattern_formatter_impl.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\registry.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\details\spdlog_impl.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\container.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\format.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\ostream.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\posix.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\printf.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\string.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\bundled\time.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\fmt.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\fmt\ostr.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\formatter.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\logger.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\android_sink.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\ansicolor_sink.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\base_sink.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\dist_sink.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\file_sinks.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\msvc_sink.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\null_sink.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\ostream_sink.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\sink.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\stdout_sinks.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\syslog_sink.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\wincolor_sink.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\sinks\windebug_sink.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\spdlog.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Logger\spdlog\tweakme.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Requests.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Timer.h" />
+    <ClInclude Include="extern\ArkServerApi\version\Core\Public\Tools.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{5affe936-40ae-4e18-9ab3-ee4a6ca31b7a}</ProjectGuid>
+    <RootNamespace>PluginTemplate</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>$(ProjectName)</TargetName>
+    <OutDir>$(SolutionDir)build\</OutDir>
+    <IntDir>$(OutDir)$(Platform)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>PROJECT_NAME="$(ProjectName)";NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <PrecompiledHeaderOutputFile />
+      <AdditionalIncludeDirectories>$(SolutionDir)extern\ArkServerApi\version\Core\Public</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);$(SolutionDir)extern\ArkServerApi\out_lib\ArkApi.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
