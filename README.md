@@ -1,2 +1,2 @@
 # Plugin-Template
-Example ArkServerApi plugin template
+ArkServerApi plugin template
