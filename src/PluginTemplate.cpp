@@ -1,20 +1,20 @@
 #include "API/ARK/Ark.h"
 
 // Called when the server is ready
-void Plugin_ServerReadyInit()
+void OnServerReady()
 {
     // Do post-"server ready" initialization here
 }
 
-// ArkServerApi hook that triggers once when the server is ready
+// Hook that triggers once when the server is ready
 DECLARE_HOOK(AShooterGameMode_BeginPlay, void, AShooterGameMode*);
 void Hook_AShooterGameMode_BeginPlay(AShooterGameMode* _this)
 {
     Log::GetLog()->info("Hook_AShooterGameMode_BeginPlay()");
     AShooterGameMode_BeginPlay_original(_this);
 
-    // Call Plugin_ServerReadyInit() for post-"server ready" initialization
-    Plugin_ServerReadyInit();
+    // Call OnServerReady() for post-"server ready" initialization
+    OnServerReady();
 }
 
 // Called by ArkServerApi when the plugin is loaded
@@ -26,9 +26,9 @@ extern "C" __declspec(dllexport) void Plugin_Init()
     ArkApi::GetHooks().SetHook("AShooterGameMode.BeginPlay", Hook_AShooterGameMode_BeginPlay,
         &AShooterGameMode_BeginPlay_original);
 
-    // If the server is ready, call Plugin_ServerReadyInit() for post-"server ready" initialization
+    // If the server is ready, call OnServerReady() for post-"server ready" initialization
     if (ArkApi::GetApiUtils().GetStatus() == ArkApi::ServerStatus::Ready)
-        Plugin_ServerReadyInit();
+        OnServerReady();
 }
 
 // Called by ArkServerApi when the plugin is unloaded
