@@ -1,6 +1,6 @@
 {
     "FullName": "Plugin Template",
-    "Description": "Simple example plugin",
+    "Description": "Simple plugin template",
     "Version": 0.1,
     "MinApiVersion": 3.54
 }
