@@ -209,6 +209,12 @@
       <EnableUAC>false</EnableUAC>
       <AdditionalDependencies>$(SolutionDir)extern\ArkServerApi\out_lib\ArkApi.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetDir)$(TargetFileName)" "$(TargetDir)$(TargetFileName).arkapi"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if exist "$(TargetDir)$(TargetFileName).arkapi" del /q "$(TargetDir)$(TargetFileName).arkapi"</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
