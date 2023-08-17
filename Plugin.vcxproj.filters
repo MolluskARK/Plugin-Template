@@ -84,7 +84,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\PluginTemplate.cpp">
+    <ClCompile Include="src\Plugin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
