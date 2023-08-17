@@ -195,11 +195,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PROJECT_NAME="$(ProjectName)";WIN32_LEAN_AND_MEAN;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeaderOutputFile />
       <AdditionalIncludeDirectories>$(SolutionDir)extern\ArkServerApi\version\Core\Public</AdditionalIncludeDirectories>
     </ClCompile>
@@ -209,7 +207,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);$(SolutionDir)extern\ArkServerApi\out_lib\ArkApi.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)extern\ArkServerApi\out_lib\ArkApi.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
