@@ -195,19 +195,16 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PROJECT_NAME="$(ProjectName)";WIN32_LEAN_AND_MEAN;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>
-      </PrecompiledHeaderFile>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <PrecompiledHeaderOutputFile />
-      <AdditionalIncludeDirectories>$(SolutionDir)extern\ArkServerApi\version\Core\Public</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>extern\ArkServerApi\version\Core\Public</AdditionalIncludeDirectories>
+      <Optimization>MaxSpeed</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>$(SolutionDir)extern\ArkServerApi\out_lib\ArkApi.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>extern\ArkServerApi\out_lib\ArkApi.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy /y "$(TargetDir)$(TargetFileName)" "$(TargetDir)$(TargetFileName).arkapi"</Command>
