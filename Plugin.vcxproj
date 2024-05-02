@@ -196,22 +196,22 @@
       <PreprocessorDefinitions>PROJECT_NAME="$(ProjectName)";WIN32_LEAN_AND_MEAN;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>extern\ArkServerApi\version\Core\Public</AdditionalIncludeDirectories>
-      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)extern\ArkServerApi\version\Core\Public</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>extern\ArkServerApi\out_lib\ArkApi.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)extern\ArkServerApi\out_lib\ArkApi.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <EnableUAC>false</EnableUAC>
     </Link>
-    <PostBuildEvent>
-      <Command>copy /y "$(TargetDir)$(TargetFileName)" "$(TargetDir)$(TargetFileName).arkapi"</Command>
-    </PostBuildEvent>
     <PreBuildEvent>
       <Command>if exist "$(TargetDir)$(TargetFileName).arkapi" del /q "$(TargetDir)$(TargetFileName).arkapi"</Command>
     </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetDir)$(TargetFileName)" "$(TargetDir)$(TargetFileName).arkapi"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
