@@ -2,5 +2,6 @@
     "FullName": "Plugin Template",
     "Description": "Simple plugin template",
     "Version": 0.1,
-    "MinApiVersion": 3.56
+    "MinApiVersion": 3.56,
+    "Dependencies": []
 }
